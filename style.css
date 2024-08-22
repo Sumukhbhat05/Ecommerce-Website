@@ -1,0 +1,100 @@
+body, h1, header{
+    margin:0px;
+    padding: 0px;
+}
+header{
+    padding: 26px;
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.containers{
+    width: 60%;
+    height: 70vh;
+    background-color: rgb(117 100 255);
+  border-radius: 20px;
+}
+
+.inp{
+    margin-top: 20px;
+    margin: 0 auto;
+}
+label, input{
+    margin: 10px;
+}
+
+label{
+    width: 140px;
+}
+.signup{
+    margin-top: 40px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    flex: 1;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+}
+
+.inp{
+    scale: 1.6;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    flex:1;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 40px;
+    padding: 10px 22px;
+    border-radius: 20px;
+    background-color:goldenrod;
+    color: wheat;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.signinco{
+    background-color: rgb(64, 226, 186);
+}
+
+.welcome{
+    background-color: deepskyblue;
+    height: 30%;
+    width: 40%;
+}
+
+.welcome a{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.welcome button{
+    margin-bottom: 40px;
+}
+
+a, button{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
