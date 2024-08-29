@@ -1,100 +1,61 @@
-body, h1, header{
-    margin:0px;
-    padding: 0px;
+body,h1,h2,p,label,input,button{
+    margin :0;
+    padding:0;
+}
+body{
+    background-image: url(is4.JPG);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family:arial,sans-serif;
+    line-height:1.9;
 }
 header{
-    padding: 26px;
+    background-color:#57a6f06e;
+    color:#000000;
+    text-align:center;
+    padding:1rem;
 }
+main{
+    padding:2rem;
+    text-align:center;
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color:#333;
+    color: #000000;
 
-.maincontainer{
-    display: flex;
-    justify-content: center;
+}
+.signup-form,.signin-form{
+    max-width:300px;
+    margin:0 auto;
     align-items: center;
-    height: 90vh;
-}
 
-.containers{
-    width: 60%;
-    height: 70vh;
-    background-color: rgb(117 100 255);
-  border-radius: 20px;
 }
-
-.inp{
-    margin-top: 20px;
-    margin: 0 auto;
-}
-label, input{
-    margin: 10px;
-}
-
 label{
-    width: 140px;
+    display:block;
+    margin-bottom:10px;
 }
-.signup{
-    margin-top: 40px;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    flex: 1;
-}
-
-.containers{
-    display: flex;
-    justify-content: center;
-}
-
-.inp{
-    scale: 1.6;
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
 input{
-    flex:1;
-    border-radius: 10px;
+    width:100%;
+    padding:8px;
+    margin-bottom:10px;
+    border: 1px solid #ddd;
+    border-radius:3px;
 }
-
 button{
-    margin-top: 40px;
-    padding: 10px 22px;
-    border-radius: 20px;
-    background-color:goldenrod;
-    color: wheat;
-    font-weight: bolder;
-    font-size: 1.3rem;
-}
+    display:inline-block;
+    padding:8px 20px;
+    background-color:#333;
+    color:#000000;
+    border:none;
+    border-radius:3px;
+    cursor:pointer;
 
-.signinco{
-    background-color: rgb(64, 226, 186);
 }
-
-.welcome{
-    background-color: deepskyblue;
-    height: 30%;
-    width: 40%;
+button:hover{
+    background-color:#91d3ff;
 }
-
-.welcome a{
-    margin: 30px;
-    display: flex;
-    align-items: center;
+p{
+    text-decoration-color: #000000c9;
 }
-
-a{
-    text-decoration: none;
-}
-
-.welcome button{
-    margin-bottom: 40px;
-}
-
-a, button{
-    margin-left: 20px;
-    cursor: pointer;
-}
-
